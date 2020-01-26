@@ -1,0 +1,78 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>Servlet</servlet-name>
+    <servlet-class>Servlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/servlet</url-pattern>
+  </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <servlet-class>SetCookiesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <url-pattern>/set-cookies</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <servlet-class>GetCookiesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <url-pattern>/get-cookies</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteCookiesServlet</servlet-name>
+        <servlet-class>DeleteCookiesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteCookiesServlet</servlet-name>
+        <url-pattern>/delete-cookies</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LibraryServlet</servlet-name>
+        <servlet-class>LibraryServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LibraryServlet</servlet-name>
+        <url-pattern>/library</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SimpleServlet</servlet-name>
+        <servlet-class>SimpleServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SimpleServlet</servlet-name>
+        <url-pattern>/simple-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SS</servlet-name>
+        <servlet-class>SS</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SS</servlet-name>
+        <url-pattern>/s-s</url-pattern>
+    </servlet-mapping>
+</web-app>
